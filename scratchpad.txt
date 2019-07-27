@@ -1,0 +1,12 @@
+☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆
+
+
+    "environment",
+    "variable",
+    "coding",
+    "bootcamp",
+    "weather",
+    "astrology",
+    "bamboozled",
+    "esquire",
+    "opacity"
