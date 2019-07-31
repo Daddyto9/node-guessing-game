@@ -49,12 +49,14 @@ var rightLetter = [];
 // Guesses left
 var guessesLeft = 10;
 
+var randomWord;
+
 function playGame() {
     // Generates new word for Word constructor if true
     if (makeNewWord) {
         // Selects random gameWords array
         var randomIndex = Math.floor(Math.random() * gameWords.length);
-        var randomWord = gameWords[randomIndex];
+        randomWord = gameWords[randomIndex];
 
         // Passes random word through the Word constructor
         chosenWord = new Word(randomWord);
@@ -122,7 +124,7 @@ function playGame() {
                             // Call function
                             playGame();
                         } else {
-                            console.log("I'm terribly sorry, the word I chose was, umm... I forgot that quick!\n");
+                            console.log("I'm terribly sorry, the word I chose was " + randomWord);
 
                             restartGame();
                         }
